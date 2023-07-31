@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Прогноз погоды</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header><i class='bx bx-left-arrow-alt'></i>Weather</header>
+      <section class="input-part">
+        <p class="info-txt"></p>
+        <div class="content">
+          <input type="text" spellcheck="false" placeholder="Enter city name" required>
+          <div class="separator"></div>
+          <button class="buttonloc">Get Device Location</button>
+          <div class="separator"></div>
+          <button class="buttonday">Get Device Location for three days</button>
+        </div>
+      </section>
+
+      <section id='weather' class="weather-part">
+        <p class='image1'><img class='img11' src="" alt="Weather Icon"></p>
+        <div class="temp">
+          <span class="numb">_</span>
+          <span class="deg">°</span>C
+        </div>
+        <div class="weather">_ _</div>
+        <div class="location">
+          <i class='bx bx-map'></i>
+          <span>' '</span>
+        </div>
+      </section>
+
+      <section id='weatherfour' class="weather-4part">
+        <div class="location">
+          <i class='bx bx-map'></i>
+          <span>' '</span>
+        </div>
+        <div id='data' class="data"></div>
+        <div class="location"><div>
+        <div class="day1">
+        <p class='image1'> <img class="img1" src="" alt="Weather Icon"></p>
+          <div id='temp' class="temp">
+          <span class="numb">_</span>
+          <span class="deg">°</span>C
+        </div>
+        <div id='weather' class="weather">_ _</div>
+      </div>
+
+      <div class="day2">
+        <div id='data' class="data2"></div>
+        <p class='image1'><img class='img2' src="" alt="Weather Icon"></p>
+      <div id='temp' class="temp2">
+        <span class="numb2">_</span>
+        <span class="deg2">°</span>C
+      </div>
+      <div id='weather' class="weather2">_ _</div>
+
+    <div class="day3">
+      <div id='data' class="data3"></div>
+    <p class='image1'><img class = 'img3' src="" alt="Weather Icon"></p>
+    <div id='temp' class="temp3">
+      <span class="numb3">_</span>
+      <span class="deg3">°</span>C
+    </div>
+    <div id='weather' class="weather3">_ _</div>
+  </div>
+
+  <div class="day4">
+    <div id='data' class="data4"></div>
+    <p class='image1'><img class='img4' src="" alt="Weather Icon"></p>
+    <div id='temp' class="temp4">
+      <span class="numb4">_</span>
+      <span class="deg4">°</span>C
+    </div>
+    <div id='weather' class="weather4">_ _</div>
+  </div>
+</section>
+
+    </div>
+    <script src="main.js"></script>
+
+  </body>
+</html>
